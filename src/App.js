@@ -1,23 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Register from './template/Register';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Using useFrom</h1>
+      <h2 style={{color:'brown'}}>Sign-up</h2>
+      <Register/>
     </div>
   );
 }
